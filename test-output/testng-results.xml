@@ -2,36 +2,36 @@
 <testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6699" started-at="2021-06-11T13:10:51 IST" finished-at="2021-06-11T13:10:58 IST">
+  <suite name="Default suite" duration-ms="7648" started-at="2021-06-22T11:05:37 IST" finished-at="2021-06-22T11:05:45 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="6699" started-at="2021-06-11T13:10:51 IST" finished-at="2021-06-11T13:10:58 IST">
+    <test name="Default test" duration-ms="7648" started-at="2021-06-22T11:05:37 IST" finished-at="2021-06-22T11:05:45 IST">
       <class name="com.spotify.tests.PlaylistTests7">
-        <test-method status="PASS" signature="shouldBeAbletoCreatePlayList()[pri:1, instance:com.spotify.tests.PlaylistTests7@7daa61f3]" name="shouldBeAbletoCreatePlayList" duration-ms="3765" started-at="2021-06-11T13:10:51 IST" description="Verify Create Playlist Api" finished-at="2021-06-11T13:10:55 IST">
+        <test-method status="PASS" signature="shouldBeAbletoCreatePlayList()[pri:1, instance:com.spotify.tests.PlaylistTests7@60c16548]" name="shouldBeAbletoCreatePlayList" duration-ms="4462" started-at="2021-06-22T11:05:37 IST" description="Verify Create Playlist Api" finished-at="2021-06-22T11:05:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldBeAbletoCreatePlayList -->
-        <test-method status="PASS" signature="shouldBeAbletoGetPlayList()[pri:2, instance:com.spotify.tests.PlaylistTests7@7daa61f3]" name="shouldBeAbletoGetPlayList" duration-ms="475" started-at="2021-06-11T13:10:55 IST" description="Verify View Playlist Api" finished-at="2021-06-11T13:10:56 IST">
+        <test-method status="PASS" signature="shouldBeAbletoGetPlayList()[pri:2, instance:com.spotify.tests.PlaylistTests7@60c16548]" name="shouldBeAbletoGetPlayList" duration-ms="612" started-at="2021-06-22T11:05:42 IST" description="Verify View Playlist Api" finished-at="2021-06-22T11:05:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldBeAbletoGetPlayList -->
-        <test-method status="PASS" signature="shouldBeAbletoUpdatePlayList()[pri:3, instance:com.spotify.tests.PlaylistTests7@7daa61f3]" name="shouldBeAbletoUpdatePlayList" duration-ms="552" started-at="2021-06-11T13:10:56 IST" description="Verify Update Playlist Test api" finished-at="2021-06-11T13:10:56 IST">
+        <test-method status="PASS" signature="shouldBeAbletoUpdatePlayList()[pri:3, instance:com.spotify.tests.PlaylistTests7@60c16548]" name="shouldBeAbletoUpdatePlayList" duration-ms="682" started-at="2021-06-22T11:05:42 IST" description="Verify Update Playlist Test api" finished-at="2021-06-22T11:05:43 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldBeAbletoUpdatePlayList -->
-        <test-method status="PASS" signature="shouldBeAbletoGetPlayListAfterUpdate()[pri:4, instance:com.spotify.tests.PlaylistTests7@7daa61f3]" name="shouldBeAbletoGetPlayListAfterUpdate" duration-ms="450" started-at="2021-06-11T13:10:56 IST" description="Verify Modified Playlist " finished-at="2021-06-11T13:10:57 IST">
+        <test-method status="PASS" signature="shouldBeAbletoGetPlayListAfterUpdate()[pri:4, instance:com.spotify.tests.PlaylistTests7@60c16548]" name="shouldBeAbletoGetPlayListAfterUpdate" duration-ms="491" started-at="2021-06-22T11:05:43 IST" description="Verify Modified Playlist " finished-at="2021-06-22T11:05:43 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldBeAbletoGetPlayListAfterUpdate -->
-        <test-method status="PASS" signature="shouldNotBeAbleToCreatePlayListWithoutName()[pri:5, instance:com.spotify.tests.PlaylistTests7@7daa61f3]" name="shouldNotBeAbleToCreatePlayListWithoutName" duration-ms="458" started-at="2021-06-11T13:10:57 IST" description="Verify Create Playlist Test without Name" finished-at="2021-06-11T13:10:57 IST">
+        <test-method status="PASS" signature="shouldNotBeAbleToCreatePlayListWithoutName()[pri:5, instance:com.spotify.tests.PlaylistTests7@60c16548]" name="shouldNotBeAbleToCreatePlayListWithoutName" duration-ms="436" started-at="2021-06-22T11:05:43 IST" description="Verify Create Playlist Test without Name" finished-at="2021-06-22T11:05:44 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldNotBeAbleToCreatePlayListWithoutName -->
-        <test-method status="PASS" signature="wrongTokenTest()[pri:6, instance:com.spotify.tests.PlaylistTests7@7daa61f3]" name="wrongTokenTest" duration-ms="560" started-at="2021-06-11T13:10:57 IST" description="Verify playlist api with wrong token" finished-at="2021-06-11T13:10:58 IST">
+        <test-method status="PASS" signature="wrongTokenTest()[pri:6, instance:com.spotify.tests.PlaylistTests7@60c16548]" name="wrongTokenTest" duration-ms="424" started-at="2021-06-22T11:05:44 IST" description="Verify playlist api with wrong token" finished-at="2021-06-22T11:05:44 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wrongTokenTest -->
-        <test-method status="PASS" signature="accessTokenExpiredTest()[pri:7, instance:com.spotify.tests.PlaylistTests7@7daa61f3]" name="accessTokenExpiredTest" duration-ms="347" started-at="2021-06-11T13:10:58 IST" description="Verify playlist api with expired token" finished-at="2021-06-11T13:10:58 IST">
+        <test-method status="PASS" signature="accessTokenExpiredTest()[pri:7, instance:com.spotify.tests.PlaylistTests7@60c16548]" name="accessTokenExpiredTest" duration-ms="446" started-at="2021-06-22T11:05:44 IST" description="Verify playlist api with expired token" finished-at="2021-06-22T11:05:45 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- accessTokenExpiredTest -->

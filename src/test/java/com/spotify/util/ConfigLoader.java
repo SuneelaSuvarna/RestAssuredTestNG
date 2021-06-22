@@ -8,7 +8,7 @@ public class ConfigLoader {
 	private static ConfigLoader load = null;
 
 	private ConfigLoader()  {
-		prop = PropertyLoader.getProperty("/Volumes/Development/Automation/Spotify/Resource/GlobalProperty.properties");
+		prop = PropertyLoader.getProperty("/Users/suneela/EclipeWorkSpace/Automation/RestAssuredTestNG/Resource/GlobalProperty.properties");
 	}
 
 	public static ConfigLoader getInstance() {

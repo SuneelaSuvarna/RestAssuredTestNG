@@ -6,9 +6,12 @@
       <class name="com.spotify.tests.PlaylistTests7">
         <methods>
           <include name="shouldBeAbletoGetPlayListAfterUpdate"/>
+          <include name="accessTokenExpiredTest"/>
           <include name="shouldBeAbletoCreatePlayList"/>
           <include name="shouldBeAbletoGetPlayList"/>
           <include name="shouldBeAbletoUpdatePlayList"/>
+          <include name="shouldNotBeAbleToCreatePlayListWithoutName"/>
+          <include name="wrongTokenTest"/>
         </methods>
       </class> <!-- com.spotify.tests.PlaylistTests7 -->
     </classes>
